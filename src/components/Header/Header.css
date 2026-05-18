@@ -1,0 +1,59 @@
+.nav--links{
+    display: flex;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+    background-color: aliceblue;
+}
+
+.nav--links li{
+    list-style: none;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.nav--links li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.left--nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+
+.right--nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right--nav{
+    width: 20%;
+}
+
+.right--nav ul input{
+    width: 85%;
+    font-size: 1rem;
+    padding: 0.25rem;
+}   
+
+.right--nav ul li{
+    list-style: none;
+}
+
+.right--nav ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav-link-item{
+    text-decoration: none;
+    color: inherit;
+}
